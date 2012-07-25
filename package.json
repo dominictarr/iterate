@@ -1,6 +1,6 @@
 {
   "name": "iterate",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "some iterator functions",
   "main": "index.js",
   "directories": {
