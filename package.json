@@ -1,0 +1,29 @@
+{
+  "name": "iterate",
+  "version": "0.0.1",
+  "description": "some iterator functions",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {
+    "it-is": "~1.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "synct test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dominictarr/iterate.git"
+  },
+  "keywords": [
+    "iterator",
+    "each",
+    "sync",
+    "map",
+    "filter"
+  ],
+  "author": "Dominic Tarr <dominic.tarr@gmail.com> (dominictarr.com)",
+  "license": "BSD"
+}
