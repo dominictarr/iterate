@@ -9,7 +9,6 @@
   "devDependencies": {
     "it-is": "~1.0.2"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "synct test/*.js"
   },
