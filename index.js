@@ -143,3 +143,10 @@ var setPath = exports.setPath = function (object, path, value) {
   }
 }
 
+var join = exports.join = function (A, B, it) {
+  each(A, function (a, ak) {
+    each(B, function (b, bk) {
+      it(a, b, ak, bk)
+    })
+  })
+}
