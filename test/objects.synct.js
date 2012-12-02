@@ -179,3 +179,10 @@ exports ['setPath'] = function () {
   it.equal(x.z, z)
 }
 
+exports['join'] = function () {
+  var ary = []
+  objects.join('abc'.split(''), 'ijk'.split(''), function (a, i) {
+    ary.push([a, i])
+  })
+  it.equal(ary.length, 9)
+}
